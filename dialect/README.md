@@ -1,9 +1,6 @@
 # Hibernate 6 Dialect for InterSystems
 This is the Hibernate 6 Dialect for InterSystems IRIS. 
 
-# Source code for any contributions
-To contribute to this dialect, go to the dialect folder
-
 # Pre reqs
 1. Use Java 11 or later
 2. Hibernate 6 or later
@@ -81,9 +78,6 @@ hibernate.dialect=io.github.yurimarx.hibernateirisdialect.InterSystemsIRISDialec
   </session-factory>
 </hibernate-configuration>
 ```
-
-# Unit test for this dialect 
-To execute unit the dialect unit tests or get a java hibernate sample, go to the folder tests-javasample
 
 
 # To learn more: 
