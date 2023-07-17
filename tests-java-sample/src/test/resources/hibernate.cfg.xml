@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>      
+  <session-factory>
+    <property name="connection.url">jdbc:IRIS://localhost:1972/USER</property>
+    <property name="hibernate.connection.driver_class">com.intersystems.jdbc.IRISDriver</property>
+    <property name="connection.username">_SYSTEM</property>
+    <property name="connection.password">SYS</property>
+    <property name="dialect">io.github.yurimarx.hibernateirisdialect.InterSystemsIRISDialect</property>
+    <property name="hibernate.hbm2ddl.auto">create-drop</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.connection.initial_pool_size">1</property>
+    <property name="hibernate.connection.pool_size">1</property>
+    <property name="hibernate.jdbc.time_zone">UTC</property>
+    <property name="hibernate.jdbc.batch_size">5</property>
+  </session-factory>
+</hibernate-configuration>

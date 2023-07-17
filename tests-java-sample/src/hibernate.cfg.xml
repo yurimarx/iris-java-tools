@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>      
+  <session-factory>
+    <property name="connection.url">jdbc:IRIS://localhost:1972/USER</property>
+    <property name="connection.username">SYS</property>
+    <property name="connection.password">_SYSTEM</property>
+    <property name="dialect">io.github.yurimarx.hibernateirisdialect.InterSystemsIRISDialect</property>
+    <property name="hibernate.hbm2ddl.auto">create-drop</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.connection.initial_pool_size">1</property>
+    <property name="hibernate.connection.pool_size">1</property>
+    <mapping class="io.github.yurimarx.hibernateirisdialecttest.model.Product" />
+    
+  </session-factory>
+</hibernate-configuration>

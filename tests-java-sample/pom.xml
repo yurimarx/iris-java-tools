@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.github.yurimarx</groupId>
+	<artifactId>hibernate-iris-test</artifactId>
+	<version>1.0.0</version>
+	<name>Unit tests for IRIS Hibernate Dialect</name>
+	<properties>
+		<maven.compiler.release>17</maven.compiler.release>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.2.5.Final</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.intersystems</groupId>
+			<artifactId>intersystems-jdbc</artifactId>
+			<version>3.2.0</version>
+			<scope>system</scope>
+			<systemPath>
+				C:\Users\yurim\Documents\hibernate\hibernate-iris-test\src\main\resources\intersystems-jdbc-3.7.1.jar
+			</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>io.github.yurimarx</groupId>
+			<artifactId>hibernateirisdialect</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				<configuration>
+					<release>17</release>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+            </plugin>
+            
+		</plugins>
+	</build>
+	
+
+</project>
