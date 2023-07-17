@@ -83,7 +83,7 @@ hibernate.dialect=io.github.yurimarx.hibernateirisdialect.InterSystemsIRISDialec
 ```
 
 # Unit test for this dialect 
-To execute unit the dialect unit tests or get a java hibernate sample, go to the folder tests-javasample
+To execute unit the dialect unit tests or get a java hibernate sample, go to the folder tests-java-sample
 
 
 # To learn more: 
