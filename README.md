@@ -87,5 +87,5 @@ To execute unit the dialect unit tests or get a java hibernate sample, go to the
 
 
 # To learn more: 
-- Tutorial: 
+- Tutorial: https://community.intersystems.com/post/using-new-intersystems-iris-hibernate-6-dialect-springboot-project
 - Video: 
