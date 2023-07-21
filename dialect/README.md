@@ -82,4 +82,4 @@ hibernate.dialect=io.github.yurimarx.hibernateirisdialect.InterSystemsIRISDialec
 
 # To learn more: 
 - Tutorial: https://community.intersystems.com/post/using-new-intersystems-iris-hibernate-6-dialect-springboot-project
-- Video: 
+- Video: https://youtu.be/-8ureaF7wZQ

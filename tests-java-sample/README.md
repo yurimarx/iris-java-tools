@@ -15,4 +15,4 @@ mvn install
 
 # To learn more: 
 - Tutorial: 
-- Video: 
+- Video: https://youtu.be/-8ureaF7wZQ
