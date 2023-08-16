@@ -17,7 +17,7 @@ To install this dialect:
 <dependency>
     <groupId>io.github.yurimarx</groupId>
     <artifactId>hibernateirisdialect</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -25,7 +25,7 @@ To install this dialect:
 
 ```
 dependencies {
-	implementation 'io.github.yurimarx:hibernateirisdialect:1.0.0'
+	implementation 'io.github.yurimarx:hibernateirisdialect:1.1.0'
 }
 ```
 
